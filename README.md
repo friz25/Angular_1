@@ -42,6 +42,7 @@ npx tailwindcss init
 запуск сайта (1,5 минуты):
 npm start
 
-
+в `tsconfig.json` добавляем строку:
+"strictPropertyInitialization": false,
 
 
