@@ -67,3 +67,5 @@ ng g s services/error --skip-tests
 а еще:
 ng g c components/global-error --skip-tests
 
+(1:18:00)
+ng g p pipes/filter-products --skip-tests
