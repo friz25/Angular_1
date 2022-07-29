@@ -21,8 +21,9 @@ export class AppComponent implements OnInit {
     this.productsService.getAll().subscribe(products => {
       // console.log(products)
       this.products = products
+      this.loading = false
     })
-    this.loading = false
+
   }
 
 }

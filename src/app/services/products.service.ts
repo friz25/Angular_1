@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {HttpClient, HttpParams} from "@angular/common/http";
-import {Observable} from "rxjs";
+import {delay, Observable} from "rxjs";
 import {IProduct} from "../models/product";
 
 @Injectable({
@@ -17,6 +17,8 @@ export class ProductsService {
         // или // fromString: 'limit=5'
         fromObject: {limit: 5}
       })
-    })
+    }).pipe(
+      delay(2000)
+    )
   }
 }
