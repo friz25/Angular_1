@@ -69,3 +69,6 @@ ng g c components/global-error --skip-tests
 
 (1:18:00)
 ng g p pipes/filter-products --skip-tests
+
+(1:21:00)
+ng g c components/modal --skip-tests
