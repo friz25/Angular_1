@@ -15,12 +15,17 @@ export class CreateProductComponent implements OnInit {
     ])
   })
 
+  get title() {
+    return this.form.controls.title as FormControl
+  }
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
   submit() {
+    console.log(this.title)
     console.log(this.form.value)
   }
 

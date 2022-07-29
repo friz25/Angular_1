@@ -8,7 +8,9 @@
 
   <p
     class="text-red-600 font-medium mb-2"
-  >error</p>
+    *ngIf="title.errors?.minlength"
+  >Product name must be at least 6 symbols long! Now ({{ title.value.length }})</p>
+<!--  >Product name must be at least 6 symbols long!</p>-->
 
   <button
     type="submit"

@@ -75,3 +75,7 @@ ng g c components/modal --skip-tests
 
 (1:24:44)
 ng g c components/create-product --skip-tests
+
+(1:33:40)
+в `tsconfig.json` изменяем строку:
+"noPropertyAccessFromIndexSignature": false,
