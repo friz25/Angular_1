@@ -45,4 +45,19 @@ npm start
 в `tsconfig.json` добавляем строку:
 "strictPropertyInitialization": false,
 
+чтоб получать данные с API https://fakestoreapi.com/products > создали папку `services` > файл `products.services.ts`
+```ts
+import {Injectable} from "@angular/core";
+import {HttpClient} from "@angular/common/http";
+
+@Injectable({
+  providedIn: 'root'
+})
+export class ProductsService {
+  constructor(private http: HttpClient) {
+  }
+}
+```
+зарегать этот доп.модуль в `app`>`app.module.ts`
+
 
