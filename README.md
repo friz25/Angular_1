@@ -79,3 +79,6 @@ ng g c components/create-product --skip-tests
 (1:33:40)
 в `tsconfig.json` изменяем строку:
 "noPropertyAccessFromIndexSignature": false,
+
+(1:36:40) директивы :
+ng g d directives/focus --skip-tests
