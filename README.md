@@ -60,4 +60,10 @@ export class ProductsService {
 ```
 зарегать этот доп.модуль в `app`>`app.module.ts`
 
+сгенерировать шаблон обработки ошибки (выполняется 25 сек)
+ng g s services/error --skip-tests
+(это то же = без сокращений) ng generate service services/error --skip-tests
+
+а еще:
+ng g c components/global-error --skip-tests
 
