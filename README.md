@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+================= ХОД РАБОТ : ===============================
+установка angular cli на комп:
+`npm install -g @angular/cli`
+`ng version` проверка (установилось ли норм)
+
+создание нового проекта (занимает 2,5 минуты)
+`ng new my-app`
+
+добавили TailWind:
+```
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+запуск сайта (1,5 минуты):
+npm start
+
+
+
+
