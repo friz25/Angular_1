@@ -27,6 +27,10 @@ export class ProductsService {
       catchError(this.errorHandler.bind(this))
     )
   }
+  //Создаёт новый продукт (по названию - введённому в модальном окне)
+  create(product: IProduct): Observable<IProduct> {
+    return this.http.post<IProduct>('https://fakestoreapi.com/products', product)
+  }
 
   private errorHandler(error: HttpErrorResponse) {
     this.errorService.handle(error.message)
