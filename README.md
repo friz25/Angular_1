@@ -97,3 +97,9 @@ const routes: Routes = [
   { path: 'about', component: AboutPageComponent }
 ];
 ```
+добавим <router-outlet></router-outlet> в app.component.html
+
+(1:55:36) панель навигации:
+ng g c components/navigation --skip-tests
+
+добавим <app-navigation></app-navigation> в app.component.html
