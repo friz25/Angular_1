@@ -82,3 +82,6 @@ ng g c components/create-product --skip-tests
 
 (1:36:40) директивы :
 ng g d directives/focus --skip-tests
+
+(1:39:20)
+ng g s services/modal --skip-tests
