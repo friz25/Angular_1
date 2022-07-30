@@ -7,7 +7,7 @@ import {BehaviorSubject} from "rxjs";
 //Отвечает за - Область видимости модалки (окна)
 export class ModalService {
 
-  isVisible$ = new BehaviorSubject<boolean>(true)
+  isVisible$ = new BehaviorSubject<boolean>(false)
 
   open() {
     this.isVisible$.next(true)
