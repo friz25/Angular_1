@@ -85,3 +85,15 @@ ng g d directives/focus --skip-tests
 
 (1:39:20)
 ng g s services/modal --skip-tests
+
+(1:52:19) Роутинг:
+ng g c pages/product-page --skip-tests
+ng g c pages/about-page --skip-tests
+
+роуты прописываев в `app-routing.module.ts`
+```ts
+const routes: Routes = [
+  { path: '', component: ProductPageComponent },
+  { path: 'about', component: AboutPageComponent }
+];
+```
